@@ -2,8 +2,6 @@
 title: Методы
 ---
 
-# Методы
-
 - [[address-geocoding|Геокодирование адресов]]
 - [[kernel-density|Ядерная оценка плотности]]
 - [[network-analysis|Сетевой анализ]]

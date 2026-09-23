@@ -2,8 +2,6 @@
 title: Индикаторы
 ---
 
-# Индикаторы
-
 - [[building-density|Плотность застройки]]
 - [[green-space-accessibility|Доступность зелёных пространств]]
 - [[land-surface-temperature|Температура земной поверхности — LST]]
