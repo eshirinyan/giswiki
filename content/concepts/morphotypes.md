@@ -1,11 +1,20 @@
 ---
-title: Морфотипы
+title: Морфотипы застройки
 type: concept
-themes: [городская-морфология, развитие-и-трансформация]
-scale: [квартал, район]
-indicators: ["[[indicators/building-density|Плотность застройки]]"]
-data: ["[[data/building-footprints|Контуры зданий]]", "[[data/street-network|Улично-дорожная сеть]]"]
-related: ["[[methods/space-syntax|Пространственный синтаксис]]", "[[data/terrain|Рельеф]]"]
+themes:
+  - городская-морфология
+  - развитие-и-трансформация
+scale:
+  - квартал
+  - район
+indicators:
+  - "[[indicators/building-density|Плотность застройки]]"
+data:
+  - "[[data/building-footprints|Контуры зданий]]"
+  - "[[data/street-network|Улично-дорожная сеть]]"
+related:
+  - "[[methods/space-syntax|Пространственный синтаксис]]"
+  - "[[data/terrain|Рельеф]]"
 publish: true
 ---
 

@@ -1,9 +1,17 @@
 ---
-title: Рельеф
+title: Рельеф местности
 type: data
-themes: [городская-морфология, мобильность-и-доступность]
-scale: [квартал, район, город]
-related: ["[[data/street-network|Улично-дорожная сеть]]", "[[methods/visibility-analysis|Оценка видимости]]", "[[concepts/morphotypes|Морфотипы]]"]
+themes:
+  - городская-морфология
+  - мобильность-и-доступность
+scale:
+  - квартал
+  - район
+  - город
+related:
+  - "[[data/street-network|Улично-дорожная сеть]]"
+  - "[[methods/visibility-analysis|Оценка видимости]]"
+  - "[[concepts/morphotypes|Морфотипы]]"
 publish: true
 ---
 
