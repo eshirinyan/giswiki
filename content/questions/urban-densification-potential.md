@@ -3,11 +3,11 @@ title: Где возможно уплотнение городской ткан�
 type: question
 themes: [городская-морфология, развитие-и-трансформация]
 scale: [квартал, район]
-methods: ["[[methods/spatial-join|Пространственное соединение]]", "[[methods/weighted-overlay|Взвешенное наложение]]", "[[methods/service-area-analysis|Зоны доступности]]"]
+methods: ["[[methods/spatial-join|Пространственное соединение]]", "[[methods/weighted-overlay|Взвешенное наложение]]", "[[methods/service-area-analysis|Зоны доступности]]", "[[methods/terrain-analysis|Анализ рельефа]]"]
 indicators: ["[[indicators/building-density|Плотность застройки]]", "[[indicators/pedestrian-accessibility|Пешеходная доступность]]"]
 data: ["[[data/building-footprints|Контуры зданий]]", "[[data/street-network|Улично-дорожная сеть]]", "[[data/amenities-and-services|Городские функции и сервисы]]"]
 outputs: [карта-потенциала-уплотнения, сравнение-сценариев]
-related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[concepts/morphotypes|Морфотипы]]", "[[data/terrain|Рельеф]]", "[[methods/space-syntax|Пространственный синтаксис]]"]
+related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[concepts/morphotypes|Морфотипы]]", "[[data/terrain|Рельеф]]", "[[methods/space-syntax|Пространственный синтаксис]]", "[[methods/gis-cad-exchange|Обмен данными между ГИС и САПР]]"]
 publish: true
 ---
 

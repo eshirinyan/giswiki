@@ -4,7 +4,7 @@ type: method
 themes: [мобильность-и-доступность]
 scale: [район, город]
 data: ["[[data/street-network|Улично-дорожная сеть]]", "[[data/amenities-and-services|Городские функции и сервисы]]"]
-related: ["[[methods/service-area-analysis|Зоны доступности]]", "[[methods/spatial-join|Пространственное соединение]]", "[[methods/space-syntax|Пространственный синтаксис]]", "[[data/terrain|Рельеф]]"]
+related: ["[[methods/service-area-analysis|Зоны доступности]]", "[[methods/spatial-join|Пространственное соединение]]", "[[methods/space-syntax|Пространственный синтаксис]]", "[[data/terrain|Рельеф]]", "[[methods/data-preparation|Подготовка пространственных данных]]"]
 outputs: [аналитическая-карта, сравнение-сценариев]
 publish: true
 ---

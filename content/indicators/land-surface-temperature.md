@@ -3,6 +3,7 @@ title: Температура земной поверхности — LST
 type: indicator
 themes: [городская-среда-и-климат]
 scale: [квартал, район, город]
+data: ["[[data/remote-sensing-imagery|Данные дистанционного зондирования]]"]
 related: ["[[indicators/ndvi|Нормализованный разностный вегетационный индекс]]", "[[questions/urban-overheating|Где возникает городской перегрев]]"]
 publish: true
 ---

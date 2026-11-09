@@ -3,7 +3,7 @@ title: Городские функции и сервисы
 type: data
 themes: [мобильность-и-доступность, общественные-пространства]
 scale: [квартал, район, город]
-methods: ["[[methods/network-analysis|Сетевой анализ]]", "[[methods/service-area-analysis|Зоны доступности]]", "[[methods/spatial-join|Пространственное соединение]]", "[[methods/address-geocoding|Геокодирование адресов]]"]
+methods: ["[[methods/network-analysis|Сетевой анализ]]", "[[methods/service-area-analysis|Зоны доступности]]", "[[methods/spatial-join|Пространственное соединение]]", "[[methods/address-geocoding|Геокодирование адресов]]", "[[methods/data-preparation|Подготовка пространственных данных]]"]
 publish: true
 ---
 

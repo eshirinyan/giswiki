@@ -3,5 +3,7 @@ title: Понятия
 ---
 
 - [[accessibility|Доступность]]
-- [[morphotypes|Морфотипы]]
+- [[coordinate-reference-systems|Системы координат и проекции]]
+- [[morphotypes|Морфотипы застройки]]
+- [[spatial-data-models|Пространственные данные и модели]]
 - [[spatial-equity|Пространственная справедливость]]

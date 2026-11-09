@@ -3,6 +3,7 @@ title: Нормализованный разностный вегетацион�
 type: indicator
 themes: [городская-среда-и-климат, общественные-пространства]
 scale: [квартал, район, город]
+data: ["[[data/remote-sensing-imagery|Данные дистанционного зондирования]]"]
 related: ["[[indicators/land-surface-temperature|Температура земной поверхности]]", "[[questions/urban-overheating|Где возникает городской перегрев]]"]
 publish: true
 ---

@@ -5,7 +5,7 @@ themes: [городская-среда-и-климат, общественные
 scale: [квартал, район]
 methods: ["[[methods/kernel-density|Ядерная оценка плотности]]", "[[methods/weighted-overlay|Взвешенное наложение]]", "[[methods/spatial-join|Пространственное соединение]]"]
 indicators: ["[[indicators/building-density|Плотность застройки]]", "[[indicators/land-surface-temperature|Температура земной поверхности]]", "[[indicators/ndvi|Нормализованный разностный вегетационный индекс]]"]
-data: ["[[data/building-footprints|Контуры зданий]]", "[[data/population|Население]]"]
+data: ["[[data/building-footprints|Контуры зданий]]", "[[data/population|Население]]", "[[data/remote-sensing-imagery|Данные дистанционного зондирования]]"]
 outputs: [карта-приоритетов-охлаждения, сравнение-сценариев]
 related: ["[[concepts/spatial-equity|Пространственная справедливость]]"]
 publish: true
