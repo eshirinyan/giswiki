@@ -7,7 +7,7 @@ methods: ["[[methods/spatial-join|Пространственное соедин�
 indicators: ["[[indicators/building-density|Плотность застройки]]", "[[indicators/pedestrian-accessibility|Пешеходная доступность]]"]
 data: ["[[data/building-footprints|Контуры зданий]]", "[[data/street-network|Улично-дорожная сеть]]", "[[data/amenities-and-services|Городские функции и сервисы]]"]
 outputs: [карта-потенциала-уплотнения, сравнение-сценариев]
-related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[concepts/morphotypes|Морфотипы]]", "[[data/terrain|Рельеф]]", "[[methods/space-syntax|Пространственный синтаксис]]", "[[methods/gis-cad-exchange|Обмен данными между ГИС и САПР]]"]
+related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[concepts/morphotypes|Морфотипы]]", "[[data/terrain|Рельеф]]", "[[methods/space-syntax|Пространственный синтаксис]]", "[[methods/gis-cad-exchange|Обмен данными между ГИС и САПР]]", "[[assets/geodata-catalog|Каталог источников геоданных]]"]
 publish: true
 ---
 
@@ -19,6 +19,10 @@ publish: true
 
 ## Необходимые данные
 [[data/building-footprints|Контуры зданий]], [[data/street-network|Улично-дорожная сеть]], [[data/amenities-and-services|Городские функции и сервисы]], сведения о земельных участках, ограничениях и мощностях инфраструктуры.
+
+### Источники из каталога
+
+В [[assets/geodata-catalog#Потенциал уплотнения|каталоге геоданных]] собраны контуры зданий, городские земельные участки, зоны охраны наследия, слои реновации и рельефа. Регламенты, инженерные мощности и население необходимо получать из актуальных дополнительных источников.
 
 ## Подходящие методы ГИС
 [[methods/spatial-join|Пространственное соединение]] агрегирует застройку по кварталам; [[methods/service-area-analysis|Зоны доступности]] проверяют доступ к сервисам; [[methods/weighted-overlay|Взвешенное наложение]] сопоставляет критерии пригодности.

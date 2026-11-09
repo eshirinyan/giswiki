@@ -7,7 +7,7 @@ methods: ["[[methods/network-analysis|Сетевой анализ]]", "[[methods
 indicators: ["[[indicators/pedestrian-accessibility|Пешеходная доступность]]"]
 data: ["[[data/street-network|Улично-дорожная сеть]]", "[[data/amenities-and-services|Городские функции и сервисы]]", "[[data/population|Население]]"]
 outputs: [карта-дефицита-доступа, сравнение-сценариев]
-related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[cases/15-minute-city|15-минутный город]]"]
+related: ["[[concepts/accessibility|Доступность]]", "[[concepts/spatial-equity|Пространственная справедливость]]", "[[cases/15-minute-city|15-минутный город]]", "[[assets/geodata-catalog|Каталог источников геоданных]]"]
 publish: true
 ---
 
@@ -19,6 +19,10 @@ publish: true
 
 ## Необходимые данные
 [[data/street-network|Улично-дорожная сеть]], [[data/amenities-and-services|Городские функции и сервисы]] и [[data/population|Население]]. Важно проверить актуальность входов в здания и проходимость связей.
+
+### Источники из каталога
+
+В [[assets/geodata-catalog#Пешеходный доступ к повседневным сервисам|каталоге геоданных]] собраны базовая выгрузка OSM/NextGIS, образовательные учреждения, общественное питание, входы метро и остановки. Полноценный слой населения в таблице отсутствует и должен быть получен отдельно.
 
 ## Подходящие методы ГИС
 [[methods/network-analysis|Сетевой анализ]] и [[methods/service-area-analysis|Зоны доступности]] показывают реальные маршруты и охваты; [[methods/spatial-join|Пространственное соединение]] связывает охват с населением.

@@ -7,7 +7,7 @@ methods: ["[[methods/kernel-density|Ядерная оценка плотност
 indicators: ["[[indicators/building-density|Плотность застройки]]", "[[indicators/land-surface-temperature|Температура земной поверхности]]", "[[indicators/ndvi|Нормализованный разностный вегетационный индекс]]"]
 data: ["[[data/building-footprints|Контуры зданий]]", "[[data/population|Население]]", "[[data/remote-sensing-imagery|Данные дистанционного зондирования]]"]
 outputs: [карта-приоритетов-охлаждения, сравнение-сценариев]
-related: ["[[concepts/spatial-equity|Пространственная справедливость]]"]
+related: ["[[concepts/spatial-equity|Пространственная справедливость]]", "[[assets/geodata-catalog|Каталог источников геоданных]]"]
 publish: true
 ---
 
@@ -19,6 +19,10 @@ publish: true
 
 ## Необходимые данные
 Сопоставимые спутниковые продукты для LST и NDVI, сведения о покрытиях, [[data/building-footprints|контуры зданий]] и [[data/population|население]]. Нужны дата съёмки, разрешение и маска облаков.
+
+### Источники из каталога
+
+[[assets/geodata-catalog#Городской перегрев|Каталог геоданных]] содержит контуры зданий и модели рельефа WorldDEM, AW3D и SRTM. Готовых продуктов LST и NDVI в таблице нет: их следует получать отдельно как [[data/remote-sensing-imagery|данные дистанционного зондирования]].
 
 ## Подходящие методы ГИС
 [[methods/kernel-density|Ядерная оценка плотности]] может выявить скопления точек с повышенными измерениями; [[methods/weighted-overlay|Взвешенное наложение]] объединяет разные факторы риска; [[methods/spatial-join|Пространственное соединение]] сопоставляет зоны с населением.
